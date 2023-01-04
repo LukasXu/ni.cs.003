@@ -65,7 +65,7 @@ let ob: any;
 const istDefaultColor = "#5a58ce,#5a58ce,#5a58ce,#6f7ce2,#3841bc,#001a57";
 const planDefaultColor = "#00ffaa,#00ffaa,#00ffaa";
 
-export default class Chart extends BaseClientSideWebPart<IDiagrammWebPartProps> {
+export default class DiagrammWebPart extends BaseClientSideWebPart<IDiagrammWebPartProps> {
 
   private jsonReader: JsonReader;
 
