@@ -13,7 +13,7 @@ export class CurrentDate {
         CurrentDate.year = currentYear;
     }
 
-    private init() {
+    private init(): void {
         CurrentDate.numberToMonth.set("1", "Januar");
         CurrentDate.numberToMonth.set("2", "Februar");
         CurrentDate.numberToMonth.set("3", "März");
@@ -28,11 +28,11 @@ export class CurrentDate {
         CurrentDate.numberToMonth.set("12", "Dezember");
     }
 
-    public static getMonth() {
+    public static getMonth(): string {
         return this.month;
     }
 
-    public static getYear() {
+    public static getYear(): string {
         return this.year;
     }
 }

@@ -35,6 +35,6 @@
     ]
   },
   "paths": {
-    "zippedPackage": "solution/diagramm-webpart.sppkg"
+    "zippedPackage": "solution/chart.sppkg"
   }
 }

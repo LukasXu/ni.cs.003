@@ -147,15 +147,15 @@ export default class JsonReader {
   }
 
   //Looks up the name of the list in the json at the given index
-  public getListName(index: any): string {
+  public getListName(index: number): string {
     return this.json.stacks[index].name;
   }
 
-  public getColorListName() {
+  public getColorListName(): string {
     return this.json.colorlistname;
   }
 
-  public getColorListFilter() {
+  public getColorListFilter(): string[] {
     return this.json.colorfilter;
   }
 }
