@@ -1,4 +1,4 @@
-import DiagrammWebPart from "../DiagrammWebPart";
+import DiagrammWebPart from "../Chart";
 import { SPHttpClient, SPHttpClientResponse } from '@microsoft/sp-http';
 import { CurrentDate } from "../Utility/Date";
 
