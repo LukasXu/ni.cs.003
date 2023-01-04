@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "diagramm-webpart-client-side-solution",
+    "id": "1c493481-6277-4bb7-8f9a-3a8b608966ac",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "diagramm-webpart description"
+      },
+      "longDescription": {
+        "default": "diagramm-webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "diagramm-webpart Feature",
+        "description": "The feature that activates elements of the diagramm-webpart solution.",
+        "id": "2147f4d6-14af-4aaf-8c6f-06f2d71eb8c7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/diagramm-webpart.sppkg"
+  }
+}

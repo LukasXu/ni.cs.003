@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "diagramm-webpart",
+    "libraryId": "1c493481-6277-4bb7-8f9a-3a8b608966ac",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "diagramm-webpart",
+    "solutionShortDescription": "diagramm-webpart description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

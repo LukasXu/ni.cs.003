@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "diagramm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/diagramm/DiagrammWebPart.js",
+          "manifest": "./src/webparts/diagramm/DiagrammWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jsChart":{
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js",
+      "globalName": "jsChart"
+    }
+  },
+  "localizedResources": {
+    "DiagrammWebPartStrings": "lib/webparts/diagramm/loc/{locale}.js"
+  }
+}
